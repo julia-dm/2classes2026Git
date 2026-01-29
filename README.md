@@ -1,7 +1,7 @@
 # 2classes2026
 ## Exercice pour les 2 classes
 
-Ce dépôt contient un exercice destiné aux élèves de deux classes différentes pour la préformation web de 2026.
+Ce dépôt contient un exercice destiné aux élèves de deux classes (séparées) pour la préformation web de 2026.
 
 ## Objectif
 L'objectif de cet exercice est de vous familiariser avec l'utilisation de Git et GitHub, ainsi que de vous encourager à collaborer sur un projet commun.
@@ -11,7 +11,10 @@ Chaque élève doit créer une page HTML personnelle contenant des informations 
 **Ne travaillez pas directement sur la branche principale (`main`). Utilisez des branches pour vos contributions.**
 
 ## Instructions
-1. Créez un fork de ce dépôt sur votre compte GitHub : https://github.com/WebDevCF2m2026/2classes2026Git/
+1. Créez un fork de ce dépôt sur votre compte GitHub : 
+
+https://github.com/WebDevCF2m2026/2classes2026Git/
+
 2. Clonez le dépôt forké sur votre machine locale.
 3. Entrez dans le répertoire cloné:
     ```bash
@@ -19,7 +22,7 @@ Chaque élève doit créer une page HTML personnelle contenant des informations 
     ``` 
 4. Liez votre dépôt local au dépôt original en tant que remote nommé `upstream`:
     ```bash
-   git remote add upstream  CLEF_SSH_DU_DEPOT_ORIGINAL
+   git remote add upstream git@github.com:WebDevCF2m2026/2classes2026Git.git
     ```
 5. Créez une nouvelle branche pour votre travail (nom au choix), **ne travaillez pas sur `main`**:
     ```bash
@@ -32,7 +35,7 @@ Chaque élève doit créer une page HTML personnelle contenant des informations 
 10. Ajoutez une image (convenable !) dans le dossier `img` nommée `{nom_prenom}.jpg` ou `.png`, et rajoutez la dans votre page HTML.
 11. Faites un commit de votre image. Il faut donc au moins 3 commits pour chaque élève.
 12. Poussez votre branche vers votre dépôt forké sur GitHub.
-13. Ouvrez une Pull Request vers le dépôt original.
+13. Ouvrez une **Pull Request** sur `github` vers le dépôt original.
 14. Assurez-vous de suivre les bonnes pratiques de collaboration et de communication lors de la soumission de votre Pull Request.
 15. Retournez régulièrement sur le dépôt original pour récupérer les mises à jour en provenance de la branche `main` (notamment si d'autres élèves ont fait des contributions) en utilisant les commandes suivantes depuis votre dépôt local sur la branche `main` :
 
@@ -42,10 +45,22 @@ git pull upstream main
 git push origin main
 ```
 
-Suite : Faites une proposition de modification dans le fichier `index.html` pour ajouter un lien vers votre page personnelle. ! Le risque de conflits est élevé si plusieurs élèves modifient ce fichier en même temps. Soyez patients et attentifs aux messages de GitHub lors de la création de votre Pull Request.
+**Comme j'ai 2 classes à gérer, je vous demanderai d'être patients pour la validation de vos Pull Requests!**
+
+### Modification du fichier index.html
+
+Suite : 
+
+Sur une **nouvelle branche** partant de `main` (mise à jour), faites une proposition de modification dans le fichier `index.html` pour ajouter un lien vers votre page personnelle. 
+
+**! Le risque de conflits est élevé si plusieurs élèves modifient ce fichier en même temps. Soyez patients et attentifs aux messages de GitHub lors de la création de votre Pull Request.**
 
 ## Règles de contribution
 - Chaque élève doit travailler sur sa propre branche.
 - Les contributions doivent être respectueuses et appropriées.
 - Toute contribution inappropriée ne sera pas acceptée.
 - N'hésitez pas à demander de l'aide si vous rencontrez des difficultés.
+
+## Et si j'attends trop longtemps pour la validation de ma PR ?
+
+Alors travaillez sur le projet personnel `passion` en attendant que je valide votre PR ici. (4 pages minimum avec HTML et CSS obligatoires faits 'main'). Vous devez l'envoyer sur un dépôt GitHub séparé qui vous appartient et m'envoyer le lien Teams sur gitweb@cf2m.be
