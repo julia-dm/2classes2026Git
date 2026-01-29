@@ -1,0 +1,44 @@
+body{
+background-color: #c6ac8f;
+}
+.container{
+    width: 800px;
+    margin:  20px auto;
+}
+.title {
+ font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+text-align: center;
+}
+.img {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 8px;
+
+}
+a{
+    text-decoration: none;
+     border: 2px #22333b solid;
+     padding: 3px;
+     border-radius: 7px;
+     color: #22333b;
+}
+a:hover{
+border: 2px #62b6cb solid;
+color: white;
+}
+.plant-img{
+    width: 50px;
+    
+}
+footer{
+    margin-top: 350px;
+    background-color: #231f20;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
